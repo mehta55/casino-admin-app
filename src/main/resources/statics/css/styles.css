@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+body {
+	background-image: url("https://cmsstorage.rationalcdn.com/assets/psc/assets/common/images/games/roulette/thumb.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.page-link {
+	color: #222;
+}
+
+li.page-item :hover {
+	background-color: #222;
+	border-color: #222;
+}
+
+a:hover {
+	color: white;
+}
+
+.page-link-active {
+	background-color: #222;
+	border: 1px solid #222;
+	display: block;
+	color: white;
+	position: relative;
+	display: block;
+	padding: 0.5rem 0.75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	display: block;
+}
+
+.pagination-div {
+	margin: auto;
+}
+
+.form-filter {
+	margin-bottom: 2em;
+}
+
+.table-hover .table-light:hover>td, .table-hover .table-light:hover>th {
+	background-color: #e2e6ea;
+	border-color: #dae0e5;
+	background-repeat: no-repeat;
+}
+
+.modal-content {
+	width: 30%;
+	margin: auto;
+	margin-top: 12em;
+}
