@@ -14,28 +14,28 @@ Author : Sahil Mehta
 
 **Register screen:**
 
-![Register-screen](https://raw.githubusercontent.com/mehta55/casino-admin/master/screenshots/register-customer.png)
+![Register-screen](https://raw.githubusercontent.com/mehta55/casino-admin-app/master/screenshots/register-customer.png)
 
 **Register success screen:**
 
-![Register-success-screen](https://raw.githubusercontent.com/mehta55/casino-admin/master/screenshots/register-success.png)
+![Register-success-screen](https://raw.githubusercontent.com/mehta55/casino-admin-app/master/screenshots/register-success.png)
 
 **Register failed screen:**
 
-![Register-failed-screen](https://raw.githubusercontent.com/mehta55/casino-admin/master/screenshots/register-failed.png)
+![Register-failed-screen](https://raw.githubusercontent.com/mehta55/casino-admin-app/master/screenshots/register-failed.png)
 
 **Customer list screen:**
 
-![Customer-list-screen](https://raw.githubusercontent.com/mehta55/casino-admin/master/screenshots/customer-list.png)
+![Customer-list-screen](https://raw.githubusercontent.com/mehta55/casino-admin-app/master/screenshots/customer-list.png)
 
 **Customer list filter screen:**
 
-![Customer-list-filter](https://raw.githubusercontent.com/mehta55/casino-admin/master/screenshots/list-filter.png)
+![Customer-list-filter](https://raw.githubusercontent.com/mehta55/casino-admin-app/master/screenshots/list-filter.png)
 
 **Recharge customer account screen:**
 
-![Recharge-customer](https://raw.githubusercontent.com/mehta55/casino-admin/master/screenshots/recharge-customer.png)
+![Recharge-customer](https://raw.githubusercontent.com/mehta55/casino-admin-app/master/screenshots/recharge-customer.png)
 
 **Error screen:**
 
-![error](https://raw.githubusercontent.com/mehta55/casino-admin/master/screenshots/error.png)
+![error](https://raw.githubusercontent.com/mehta55/casino-admin-app/master/screenshots/error.png)
