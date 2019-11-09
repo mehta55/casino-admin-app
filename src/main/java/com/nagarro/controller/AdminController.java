@@ -78,8 +78,10 @@ public class AdminController {
 	 * @param nameFilter          used for filtering customer by name.
 	 * @param emailFilter         used for filtering customer by email.
 	 * @param contactNumberFilter used for filtering customer by contact number.
-	 * @return ModelAndView Object with register view and current page name (for
-	 *         activating it in the navigation bar).
+	 * @return ModelAndView Object with customer list (single page), page number of
+	 *         customer list, total number of pages of full customer list, filter
+	 *         details, customers view and current page name (for activating it in
+	 *         the navigation bar).
 	 * 
 	 */
 	@RequestMapping(value = "/customers", method = RequestMethod.GET)
@@ -116,8 +118,10 @@ public class AdminController {
 	 * @param nameFilter          used for filtering customer by name.
 	 * @param emailFilter         used for filtering customer by email.
 	 * @param contactNumberFilter used for filtering customer by contact number.
-	 * @return ModelAndView Object with register view and current page name (for
-	 *         activating it in the navigation bar).
+	 * @return ModelAndView Object with customer list (single page), page number of
+	 *         customer list, total number of pages of full customer list, filter
+	 *         details, customers view and current page name (for activating it in
+	 *         the navigation bar).
 	 */
 	@RequestMapping(value = "/customers", method = RequestMethod.POST)
 	public ModelAndView getCustomersFilter(@RequestParam("page") int pageNo,
@@ -201,7 +205,8 @@ public class AdminController {
 	 * @param rechargeAmount Amount to be added in customer's account.
 	 * @param redirectURL    URL used to redirect the request after recharge process
 	 *                       to the same page having same filters.
-	 * @return ModelAndView Object with redirect URL.
+	 * @return ModelAndView Object with redirect URL that redirects to the same page
+	 *         with same filters applied.
 	 */
 	@RequestMapping(value = "/recharge", method = RequestMethod.POST)
 	public ModelAndView rechargeCustomer(@RequestParam("recharge-modal-id") String customerId,
